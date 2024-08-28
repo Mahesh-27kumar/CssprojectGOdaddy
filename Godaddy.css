@@ -92,6 +92,10 @@ width: 500px;
     border-color: #5F5F6E;
     box-shadow:  2px 2px 6px gray;
 }
+.s1:focus{
+    background-color: black;
+    color: white;
+}
 .b2{
     height:70px ;
     width: 350px;
@@ -99,8 +103,7 @@ width: 500px;
     border: 2px solid black;
     margin-left: 50px;
     margin-top: 10px;
-    display: flex;
-   
+    display: flex; 
 }
 .b2:hover{
     box-shadow:5px 5px 2px white;
@@ -219,6 +222,10 @@ width: 500px;
     border-style:solid;
     border-color: lightgrey;
 }
+.inpt > input:focus{
+    background-color: black;
+    color: white;
+}
 .inpt > input:hover{
     border-color: black;
     box-shadow: 2px 2px 4px black;
@@ -289,6 +296,10 @@ width: 500px;
 .div1 > input:hover{
     background-color: white;
     color: black;
+}
+.div1 input:focus{
+    background-color: black;
+    color: white;
 }
 .div2 > h3{
     margin-top: 60px;
