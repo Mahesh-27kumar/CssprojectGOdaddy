@@ -35,10 +35,6 @@ li{
     font-family:mainfont ;
     src: url(GD-Boing-Bold.ttf);
 }
-.header li:hover{
-       color:white;
-       text-shadow: 5px 5px 10px white;
-}
 .search{
        display:flex;
        background-color: #a9a9ae;
@@ -350,14 +346,9 @@ width: 500px;
     letter-spacing: 7px;
 }
 .ir{
-    height: 600px;
-    width: 100%;
-    margin-top: 10px;
-}
-.ir > div{
     background-image: url(spimg.webp);
     background-size: 100% 550px;
-    height: 700px;
+    height: 550px;
     width: 87%;
     margin-top: 20px;
     margin-left: 90px;
@@ -1101,7 +1092,6 @@ width: 500px;
         word-spacing: 10px;
         letter-spacing: 7px;
     }
-
     .ir{
         background-image: url(spimg.webp);
         background-size: 100% 350px;
